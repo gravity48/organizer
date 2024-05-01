@@ -1,0 +1,2084 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Управления",
+      "content_type": 7,
+      "codename": "add_administration"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Управления",
+      "content_type": 7,
+      "codename": "change_administration"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Управления",
+      "content_type": 7,
+      "codename": "delete_administration"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Управления",
+      "content_type": 7,
+      "codename": "view_administration"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Отделы",
+      "content_type": 8,
+      "codename": "add_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Отделы",
+      "content_type": 8,
+      "codename": "change_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Отделы",
+      "content_type": 8,
+      "codename": "delete_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Отделы",
+      "content_type": 8,
+      "codename": "view_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Подразделения",
+      "content_type": 9,
+      "codename": "add_division"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Подразделения",
+      "content_type": 9,
+      "codename": "change_division"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Подразделения",
+      "content_type": 9,
+      "codename": "delete_division"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Подразделения",
+      "content_type": 9,
+      "codename": "view_division"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Сотрудники",
+      "content_type": 10,
+      "codename": "add_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Сотрудники",
+      "content_type": 10,
+      "codename": "change_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Сотрудники",
+      "content_type": 10,
+      "codename": "delete_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Сотрудники",
+      "content_type": 10,
+      "codename": "view_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add Службы",
+      "content_type": 11,
+      "codename": "add_service"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change Службы",
+      "content_type": 11,
+      "codename": "change_service"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete Службы",
+      "content_type": 11,
+      "codename": "delete_service"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view Службы",
+      "content_type": 11,
+      "codename": "view_service"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add Группы",
+      "content_type": 12,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change Группы",
+      "content_type": 12,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete Группы",
+      "content_type": 12,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view Группы",
+      "content_type": 12,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add Личный состав подразделения.",
+      "content_type": 13,
+      "codename": "add_employeedivision"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change Личный состав подразделения.",
+      "content_type": 13,
+      "codename": "change_employeedivision"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete Личный состав подразделения.",
+      "content_type": 13,
+      "codename": "delete_employeedivision"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view Личный состав подразделения.",
+      "content_type": 13,
+      "codename": "view_employeedivision"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "api",
+      "model": "administration"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "api",
+      "model": "department"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "api",
+      "model": "division"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "api",
+      "model": "employee"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "api",
+      "model": "service"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "api",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "api",
+      "model": "employeedivision"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "0d8f6061-2587-4280-b3b4-ff828ccab037",
+    "fields": {
+      "source": "DEPARTMENT"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "0efdac7b-a69b-4f90-ae52-b204d9ed65cd",
+    "fields": {
+      "source": "SERVICE"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "108a91cd-8b95-4707-ac55-e104c364e592",
+    "fields": {
+      "source": "SERVICE"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "176fd5a1-e2da-4bea-a721-67b4da489dac",
+    "fields": {
+      "source": "SERVICE"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "18d5b60a-d7fc-4280-bb6b-a9ae92d90e0a",
+    "fields": {
+      "source": "ADMINISTRATION"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "1e41127a-2e55-4db6-915e-5feb2f204ae5",
+    "fields": {
+      "source": "GROUP"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "2233dd8a-3685-4786-aff0-97e22180c8ee",
+    "fields": {
+      "source": "ADMINISTRATION"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "26c564f6-52f3-4617-9ddc-33094f508bc0",
+    "fields": {
+      "source": "GROUP"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "295a0275-9d5e-4bc5-9b65-1d8f77a261fe",
+    "fields": {
+      "source": "DEPARTMENT"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "29d26eda-9960-422c-bc51-b5573dee87b1",
+    "fields": {
+      "source": "DEPARTMENT"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "3241d016-dc08-4105-a913-0b2a276830d5",
+    "fields": {
+      "source": "ADMINISTRATION"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "41d1638a-3c92-4c84-9ef1-8ba0c9b3f8ad",
+    "fields": {
+      "source": "ADMINISTRATION"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "44de920f-9399-4f83-b838-0fd6278f3290",
+    "fields": {
+      "source": "SERVICE"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "4917c92b-61fb-4c5a-a509-f1f9fb3b397a",
+    "fields": {
+      "source": "DEPARTMENT"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "4ddf0085-a490-4828-827f-a7660980123a",
+    "fields": {
+      "source": "GROUP"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "4ebbe954-3aca-4510-8653-39231e25e5d3",
+    "fields": {
+      "source": "SERVICE"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "55737a04-2d22-4f22-8a97-d908f0505392",
+    "fields": {
+      "source": "GROUP"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "56fcf5d4-ab50-44d4-88f6-4fe0232cffa7",
+    "fields": {
+      "source": "ADMINISTRATION"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "5d9f88ef-b33a-4086-b0d6-0f6e54fa7879",
+    "fields": {
+      "source": "GROUP"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "69f0c05f-6c52-4886-9eac-bb9a1d3d2841",
+    "fields": {
+      "source": "GROUP"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "6b937a57-a4e0-4889-bd66-859c9145d867",
+    "fields": {
+      "source": "ADMINISTRATION"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "779a5a68-0f7f-4df5-a310-b6dc572b9bdd",
+    "fields": {
+      "source": "SERVICE"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "77afb1c2-5ad3-4968-a645-5b5d3d83be2f",
+    "fields": {
+      "source": "DEPARTMENT"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "7e1eb952-e296-421f-b180-c8e0306ca07f",
+    "fields": {
+      "source": "DEPARTMENT"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "85699f38-dcf2-4ef4-bf7f-f55a0447f166",
+    "fields": {
+      "source": "DEPARTMENT"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "8d716e8e-e522-4d00-96ff-a294b70a8262",
+    "fields": {
+      "source": "SERVICE"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "911b8ae7-3310-4001-8409-64aaa63c0997",
+    "fields": {
+      "source": "SERVICE"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "972e34a6-8c6e-46b9-95b6-23e8f7792d82",
+    "fields": {
+      "source": "ADMINISTRATION"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "bb0a6fad-5295-46da-abee-f2a7fddf8504",
+    "fields": {
+      "source": "DEPARTMENT"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "bea0d969-c1cc-409e-90ec-2099b829e22b",
+    "fields": {
+      "source": "GROUP"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "bfd7a7df-2cf4-49f0-9ffe-7754064b2f8c",
+    "fields": {
+      "source": "GROUP"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "c0744eeb-6388-4baf-a300-a898a624a910",
+    "fields": {
+      "source": "ADMINISTRATION"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "c2a645ea-c56d-4e18-953a-97ee3923eb99",
+    "fields": {
+      "source": "ADMINISTRATION"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "d2147c90-78c1-4968-98eb-469178a0c56d",
+    "fields": {
+      "source": "GROUP"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "da03c684-347c-43b3-adca-2d9a550e8808",
+    "fields": {
+      "source": "DEPARTMENT"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "e7bef7ef-0fc0-4906-ba9c-ed6ced5a8d7d",
+    "fields": {
+      "source": "SERVICE"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "fbaa2a7f-757a-4604-9576-7a3d3ef48b16",
+    "fields": {
+      "source": "GROUP"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "fcdbbb98-88f8-4327-b16d-284ff709d9a7",
+    "fields": {
+      "source": "SERVICE"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "fd016826-5a59-4189-8366-51f9ff2996ae",
+    "fields": {
+      "source": "ADMINISTRATION"
+    }
+  },
+  {
+    "model": "api.division",
+    "pk": "fe43f559-6ccd-4672-a607-f43c2acafa04",
+    "fields": {
+      "source": "DEPARTMENT"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 1,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.204Z",
+      "updated_at": "2024-04-24T15:16:01.204Z",
+      "division": "8d716e8e-e522-4d00-96ff-a294b70a8262",
+      "title": "потом"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 2,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.220Z",
+      "updated_at": "2024-04-24T15:16:01.220Z",
+      "division": "779a5a68-0f7f-4df5-a310-b6dc572b9bdd",
+      "title": "выгнать"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 3,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.232Z",
+      "updated_at": "2024-04-24T15:16:01.232Z",
+      "division": "0efdac7b-a69b-4f90-ae52-b204d9ed65cd",
+      "title": "плавно"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 4,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.244Z",
+      "updated_at": "2024-04-24T15:16:01.244Z",
+      "division": "fcdbbb98-88f8-4327-b16d-284ff709d9a7",
+      "title": "означать"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 5,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.256Z",
+      "updated_at": "2024-04-24T15:16:01.256Z",
+      "division": "e7bef7ef-0fc0-4906-ba9c-ed6ced5a8d7d",
+      "title": "жидкий"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 6,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.264Z",
+      "updated_at": "2024-04-24T15:16:01.264Z",
+      "division": "4ebbe954-3aca-4510-8653-39231e25e5d3",
+      "title": "точно"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 7,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.273Z",
+      "updated_at": "2024-04-24T15:16:01.273Z",
+      "division": "911b8ae7-3310-4001-8409-64aaa63c0997",
+      "title": "райком"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 8,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.281Z",
+      "updated_at": "2024-04-24T15:16:01.281Z",
+      "division": "108a91cd-8b95-4707-ac55-e104c364e592",
+      "title": "отражение"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 9,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.289Z",
+      "updated_at": "2024-04-24T15:16:01.289Z",
+      "division": "176fd5a1-e2da-4bea-a721-67b4da489dac",
+      "title": "привлекать"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 10,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.298Z",
+      "updated_at": "2024-04-24T15:16:01.298Z",
+      "division": "44de920f-9399-4f83-b838-0fd6278f3290",
+      "title": "поезд"
+    }
+  },
+  {
+    "model": "api.administration",
+    "pk": 1,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.209Z",
+      "updated_at": "2024-04-24T15:16:01.209Z",
+      "division": "2233dd8a-3685-4786-aff0-97e22180c8ee",
+      "title": "сустав",
+      "service": 1
+    }
+  },
+  {
+    "model": "api.administration",
+    "pk": 2,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.223Z",
+      "updated_at": "2024-04-24T15:16:01.223Z",
+      "division": "fd016826-5a59-4189-8366-51f9ff2996ae",
+      "title": "прежний",
+      "service": 2
+    }
+  },
+  {
+    "model": "api.administration",
+    "pk": 3,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.236Z",
+      "updated_at": "2024-04-24T15:16:01.236Z",
+      "division": "972e34a6-8c6e-46b9-95b6-23e8f7792d82",
+      "title": "очередной",
+      "service": 3
+    }
+  },
+  {
+    "model": "api.administration",
+    "pk": 4,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.247Z",
+      "updated_at": "2024-04-24T15:16:01.247Z",
+      "division": "18d5b60a-d7fc-4280-bb6b-a9ae92d90e0a",
+      "title": "миф",
+      "service": 4
+    }
+  },
+  {
+    "model": "api.administration",
+    "pk": 5,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.258Z",
+      "updated_at": "2024-04-24T15:16:01.258Z",
+      "division": "56fcf5d4-ab50-44d4-88f6-4fe0232cffa7",
+      "title": "задрать",
+      "service": 5
+    }
+  },
+  {
+    "model": "api.administration",
+    "pk": 6,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.267Z",
+      "updated_at": "2024-04-24T15:16:01.267Z",
+      "division": "6b937a57-a4e0-4889-bd66-859c9145d867",
+      "title": "тревога",
+      "service": 6
+    }
+  },
+  {
+    "model": "api.administration",
+    "pk": 7,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.275Z",
+      "updated_at": "2024-04-24T15:16:01.275Z",
+      "division": "c0744eeb-6388-4baf-a300-a898a624a910",
+      "title": "порода",
+      "service": 7
+    }
+  },
+  {
+    "model": "api.administration",
+    "pk": 8,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.283Z",
+      "updated_at": "2024-04-24T15:16:01.283Z",
+      "division": "c2a645ea-c56d-4e18-953a-97ee3923eb99",
+      "title": "сверкающий",
+      "service": 8
+    }
+  },
+  {
+    "model": "api.administration",
+    "pk": 9,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.292Z",
+      "updated_at": "2024-04-24T15:16:01.292Z",
+      "division": "41d1638a-3c92-4c84-9ef1-8ba0c9b3f8ad",
+      "title": "магазин",
+      "service": 9
+    }
+  },
+  {
+    "model": "api.administration",
+    "pk": 10,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.300Z",
+      "updated_at": "2024-04-24T15:16:01.300Z",
+      "division": "3241d016-dc08-4105-a913-0b2a276830d5",
+      "title": "дрогнуть",
+      "service": 10
+    }
+  },
+  {
+    "model": "api.department",
+    "pk": 1,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.212Z",
+      "updated_at": "2024-04-24T15:16:01.212Z",
+      "division": "77afb1c2-5ad3-4968-a645-5b5d3d83be2f",
+      "title": "юный",
+      "administration": 1
+    }
+  },
+  {
+    "model": "api.department",
+    "pk": 2,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.226Z",
+      "updated_at": "2024-04-24T15:16:01.226Z",
+      "division": "7e1eb952-e296-421f-b180-c8e0306ca07f",
+      "title": "прежде",
+      "administration": 2
+    }
+  },
+  {
+    "model": "api.department",
+    "pk": 3,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.239Z",
+      "updated_at": "2024-04-24T15:16:01.239Z",
+      "division": "bb0a6fad-5295-46da-abee-f2a7fddf8504",
+      "title": "наслаждение",
+      "administration": 3
+    }
+  },
+  {
+    "model": "api.department",
+    "pk": 4,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.251Z",
+      "updated_at": "2024-04-24T15:16:01.251Z",
+      "division": "4917c92b-61fb-4c5a-a509-f1f9fb3b397a",
+      "title": "кожа",
+      "administration": 4
+    }
+  },
+  {
+    "model": "api.department",
+    "pk": 5,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.260Z",
+      "updated_at": "2024-04-24T15:16:01.260Z",
+      "division": "85699f38-dcf2-4ef4-bf7f-f55a0447f166",
+      "title": "пастух",
+      "administration": 5
+    }
+  },
+  {
+    "model": "api.department",
+    "pk": 6,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.269Z",
+      "updated_at": "2024-04-24T15:16:01.269Z",
+      "division": "29d26eda-9960-422c-bc51-b5573dee87b1",
+      "title": "плод",
+      "administration": 6
+    }
+  },
+  {
+    "model": "api.department",
+    "pk": 7,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.277Z",
+      "updated_at": "2024-04-24T15:16:01.277Z",
+      "division": "da03c684-347c-43b3-adca-2d9a550e8808",
+      "title": "металл",
+      "administration": 7
+    }
+  },
+  {
+    "model": "api.department",
+    "pk": 8,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.285Z",
+      "updated_at": "2024-04-24T15:16:01.285Z",
+      "division": "0d8f6061-2587-4280-b3b4-ff828ccab037",
+      "title": "теория",
+      "administration": 8
+    }
+  },
+  {
+    "model": "api.department",
+    "pk": 9,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.294Z",
+      "updated_at": "2024-04-24T15:16:01.294Z",
+      "division": "295a0275-9d5e-4bc5-9b65-1d8f77a261fe",
+      "title": "ручей",
+      "administration": 9
+    }
+  },
+  {
+    "model": "api.department",
+    "pk": 10,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.303Z",
+      "updated_at": "2024-04-24T15:16:01.303Z",
+      "division": "fe43f559-6ccd-4672-a607-f43c2acafa04",
+      "title": "ягода",
+      "administration": 10
+    }
+  },
+  {
+    "model": "api.group",
+    "pk": 1,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.216Z",
+      "updated_at": "2024-04-24T15:16:01.216Z",
+      "division": "d2147c90-78c1-4968-98eb-469178a0c56d",
+      "title": "дремать",
+      "department": 1
+    }
+  },
+  {
+    "model": "api.group",
+    "pk": 2,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.229Z",
+      "updated_at": "2024-04-24T15:16:01.229Z",
+      "division": "69f0c05f-6c52-4886-9eac-bb9a1d3d2841",
+      "title": "да",
+      "department": 2
+    }
+  },
+  {
+    "model": "api.group",
+    "pk": 3,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.241Z",
+      "updated_at": "2024-04-24T15:16:01.241Z",
+      "division": "bea0d969-c1cc-409e-90ec-2099b829e22b",
+      "title": "премьера",
+      "department": 3
+    }
+  },
+  {
+    "model": "api.group",
+    "pk": 4,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.253Z",
+      "updated_at": "2024-04-24T15:16:01.253Z",
+      "division": "bfd7a7df-2cf4-49f0-9ffe-7754064b2f8c",
+      "title": "пересечь",
+      "department": 4
+    }
+  },
+  {
+    "model": "api.group",
+    "pk": 5,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.262Z",
+      "updated_at": "2024-04-24T15:16:01.262Z",
+      "division": "26c564f6-52f3-4617-9ddc-33094f508bc0",
+      "title": "приходить",
+      "department": 5
+    }
+  },
+  {
+    "model": "api.group",
+    "pk": 6,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.271Z",
+      "updated_at": "2024-04-24T15:16:01.271Z",
+      "division": "5d9f88ef-b33a-4086-b0d6-0f6e54fa7879",
+      "title": "развитый",
+      "department": 6
+    }
+  },
+  {
+    "model": "api.group",
+    "pk": 7,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.279Z",
+      "updated_at": "2024-04-24T15:16:01.279Z",
+      "division": "55737a04-2d22-4f22-8a97-d908f0505392",
+      "title": "дружно",
+      "department": 7
+    }
+  },
+  {
+    "model": "api.group",
+    "pk": 8,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.287Z",
+      "updated_at": "2024-04-24T15:16:01.287Z",
+      "division": "4ddf0085-a490-4828-827f-a7660980123a",
+      "title": "пол",
+      "department": 8
+    }
+  },
+  {
+    "model": "api.group",
+    "pk": 9,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.296Z",
+      "updated_at": "2024-04-24T15:16:01.296Z",
+      "division": "fbaa2a7f-757a-4604-9576-7a3d3ef48b16",
+      "title": "инфекция",
+      "department": 9
+    }
+  },
+  {
+    "model": "api.group",
+    "pk": 10,
+    "fields": {
+      "created_at": "2024-04-24T15:16:01.305Z",
+      "updated_at": "2024-04-24T15:16:01.305Z",
+      "division": "1e41127a-2e55-4db6-915e-5feb2f204ae5",
+      "title": "ученый",
+      "department": 10
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 1,
+    "fields": {
+      "employee": 1,
+      "division": "8d716e8e-e522-4d00-96ff-a294b70a8262",
+      "start_at": "2012-05-30",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 2,
+    "fields": {
+      "employee": 2,
+      "division": "2233dd8a-3685-4786-aff0-97e22180c8ee",
+      "start_at": "2014-05-28",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 3,
+    "fields": {
+      "employee": 3,
+      "division": "77afb1c2-5ad3-4968-a645-5b5d3d83be2f",
+      "start_at": "2018-06-01",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 4,
+    "fields": {
+      "employee": 4,
+      "division": "d2147c90-78c1-4968-98eb-469178a0c56d",
+      "start_at": "2017-12-28",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 5,
+    "fields": {
+      "employee": 5,
+      "division": "779a5a68-0f7f-4df5-a310-b6dc572b9bdd",
+      "start_at": "2008-05-26",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 6,
+    "fields": {
+      "employee": 6,
+      "division": "fd016826-5a59-4189-8366-51f9ff2996ae",
+      "start_at": "2022-08-19",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 7,
+    "fields": {
+      "employee": 7,
+      "division": "7e1eb952-e296-421f-b180-c8e0306ca07f",
+      "start_at": "2010-12-22",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 8,
+    "fields": {
+      "employee": 8,
+      "division": "69f0c05f-6c52-4886-9eac-bb9a1d3d2841",
+      "start_at": "2020-05-18",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 9,
+    "fields": {
+      "employee": 9,
+      "division": "0efdac7b-a69b-4f90-ae52-b204d9ed65cd",
+      "start_at": "2024-04-09",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 10,
+    "fields": {
+      "employee": 10,
+      "division": "972e34a6-8c6e-46b9-95b6-23e8f7792d82",
+      "start_at": "2022-10-04",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 11,
+    "fields": {
+      "employee": 11,
+      "division": "bb0a6fad-5295-46da-abee-f2a7fddf8504",
+      "start_at": "2016-03-27",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 12,
+    "fields": {
+      "employee": 12,
+      "division": "bea0d969-c1cc-409e-90ec-2099b829e22b",
+      "start_at": "2004-12-20",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 13,
+    "fields": {
+      "employee": 13,
+      "division": "fcdbbb98-88f8-4327-b16d-284ff709d9a7",
+      "start_at": "2007-04-21",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 14,
+    "fields": {
+      "employee": 14,
+      "division": "18d5b60a-d7fc-4280-bb6b-a9ae92d90e0a",
+      "start_at": "2014-09-30",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 15,
+    "fields": {
+      "employee": 15,
+      "division": "4917c92b-61fb-4c5a-a509-f1f9fb3b397a",
+      "start_at": "2017-07-08",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 16,
+    "fields": {
+      "employee": 16,
+      "division": "bfd7a7df-2cf4-49f0-9ffe-7754064b2f8c",
+      "start_at": "2016-01-20",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 17,
+    "fields": {
+      "employee": 17,
+      "division": "e7bef7ef-0fc0-4906-ba9c-ed6ced5a8d7d",
+      "start_at": "2008-09-20",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 18,
+    "fields": {
+      "employee": 18,
+      "division": "56fcf5d4-ab50-44d4-88f6-4fe0232cffa7",
+      "start_at": "2018-04-07",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 19,
+    "fields": {
+      "employee": 19,
+      "division": "85699f38-dcf2-4ef4-bf7f-f55a0447f166",
+      "start_at": "2017-01-04",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 20,
+    "fields": {
+      "employee": 20,
+      "division": "26c564f6-52f3-4617-9ddc-33094f508bc0",
+      "start_at": "2006-08-19",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 21,
+    "fields": {
+      "employee": 21,
+      "division": "4ebbe954-3aca-4510-8653-39231e25e5d3",
+      "start_at": "2020-04-29",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 22,
+    "fields": {
+      "employee": 22,
+      "division": "6b937a57-a4e0-4889-bd66-859c9145d867",
+      "start_at": "2005-09-17",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 23,
+    "fields": {
+      "employee": 23,
+      "division": "29d26eda-9960-422c-bc51-b5573dee87b1",
+      "start_at": "2005-02-05",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 24,
+    "fields": {
+      "employee": 24,
+      "division": "5d9f88ef-b33a-4086-b0d6-0f6e54fa7879",
+      "start_at": "2013-09-18",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 25,
+    "fields": {
+      "employee": 25,
+      "division": "911b8ae7-3310-4001-8409-64aaa63c0997",
+      "start_at": "2017-11-01",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 26,
+    "fields": {
+      "employee": 26,
+      "division": "c0744eeb-6388-4baf-a300-a898a624a910",
+      "start_at": "2007-10-23",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 27,
+    "fields": {
+      "employee": 27,
+      "division": "da03c684-347c-43b3-adca-2d9a550e8808",
+      "start_at": "2012-02-01",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 28,
+    "fields": {
+      "employee": 28,
+      "division": "55737a04-2d22-4f22-8a97-d908f0505392",
+      "start_at": "2019-02-03",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 29,
+    "fields": {
+      "employee": 29,
+      "division": "108a91cd-8b95-4707-ac55-e104c364e592",
+      "start_at": "2011-06-30",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 30,
+    "fields": {
+      "employee": 30,
+      "division": "c2a645ea-c56d-4e18-953a-97ee3923eb99",
+      "start_at": "2012-08-07",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 31,
+    "fields": {
+      "employee": 31,
+      "division": "0d8f6061-2587-4280-b3b4-ff828ccab037",
+      "start_at": "2017-01-22",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 32,
+    "fields": {
+      "employee": 32,
+      "division": "4ddf0085-a490-4828-827f-a7660980123a",
+      "start_at": "2018-05-07",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 33,
+    "fields": {
+      "employee": 33,
+      "division": "176fd5a1-e2da-4bea-a721-67b4da489dac",
+      "start_at": "2007-06-19",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 34,
+    "fields": {
+      "employee": 34,
+      "division": "41d1638a-3c92-4c84-9ef1-8ba0c9b3f8ad",
+      "start_at": "2014-03-15",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 35,
+    "fields": {
+      "employee": 35,
+      "division": "295a0275-9d5e-4bc5-9b65-1d8f77a261fe",
+      "start_at": "2016-12-21",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 36,
+    "fields": {
+      "employee": 36,
+      "division": "fbaa2a7f-757a-4604-9576-7a3d3ef48b16",
+      "start_at": "2010-08-20",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 37,
+    "fields": {
+      "employee": 37,
+      "division": "44de920f-9399-4f83-b838-0fd6278f3290",
+      "start_at": "2017-04-18",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 38,
+    "fields": {
+      "employee": 38,
+      "division": "3241d016-dc08-4105-a913-0b2a276830d5",
+      "start_at": "2016-11-11",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 39,
+    "fields": {
+      "employee": 39,
+      "division": "fe43f559-6ccd-4672-a607-f43c2acafa04",
+      "start_at": "2017-04-29",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employeedivision",
+    "pk": 40,
+    "fields": {
+      "employee": 40,
+      "division": "1e41127a-2e55-4db6-915e-5feb2f204ae5",
+      "start_at": "2017-12-06",
+      "end_at": null
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 1,
+    "fields": {
+      "full_name": "Пантелеймон Анатольевич Осипов",
+      "post": "носок",
+      "birthday": "1990-03-08",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 2,
+    "fields": {
+      "full_name": "Ольга Матвеевна Логинова",
+      "post": "нажать",
+      "birthday": "2003-04-12",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 3,
+    "fields": {
+      "full_name": "Белов Ян Димитриевич",
+      "post": "волк",
+      "birthday": "1990-11-19",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 4,
+    "fields": {
+      "full_name": "Ксения Болеславовна Артемьева",
+      "post": "собеседник",
+      "birthday": "2002-12-21",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 5,
+    "fields": {
+      "full_name": "Казакова Нина Кузьминична",
+      "post": "постоянный",
+      "birthday": "1994-06-12",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 6,
+    "fields": {
+      "full_name": "Спиридон Дорофеевич Семенов",
+      "post": "неправда",
+      "birthday": "2003-08-15",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 7,
+    "fields": {
+      "full_name": "Власова Агата Юрьевна",
+      "post": "функция",
+      "birthday": "2000-08-20",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 8,
+    "fields": {
+      "full_name": "Арсений Геннадиевич Фомичев",
+      "post": "спешить",
+      "birthday": "1980-08-17",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 9,
+    "fields": {
+      "full_name": "Нонна Богдановна Федорова",
+      "post": "сравнение",
+      "birthday": "2002-03-10",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 10,
+    "fields": {
+      "full_name": "Жданов Кузьма Валерьевич",
+      "post": "тесно",
+      "birthday": "1984-04-16",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 11,
+    "fields": {
+      "full_name": "Элеонора Тимуровна Сафонова",
+      "post": "поймать",
+      "birthday": "1987-12-30",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 12,
+    "fields": {
+      "full_name": "Иларион Ермолаевич Герасимов",
+      "post": "затянуться",
+      "birthday": "2000-06-02",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 13,
+    "fields": {
+      "full_name": "Архип Афанасьевич Ларионов",
+      "post": "цепочка",
+      "birthday": "1977-08-10",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 14,
+    "fields": {
+      "full_name": "София Никифоровна Дьячкова",
+      "post": "рис",
+      "birthday": "1990-08-15",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 15,
+    "fields": {
+      "full_name": "Феврония Николаевна Савина",
+      "post": "ягода",
+      "birthday": "1988-03-06",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 16,
+    "fields": {
+      "full_name": "Людмила Артемовна Большакова",
+      "post": "анализ",
+      "birthday": "1977-02-12",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 17,
+    "fields": {
+      "full_name": "Зинаида Архиповна Гурьева",
+      "post": "армейский",
+      "birthday": "1977-03-05",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 18,
+    "fields": {
+      "full_name": "Котов Аркадий Бориславович",
+      "post": "смелый",
+      "birthday": "1978-02-21",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 19,
+    "fields": {
+      "full_name": "Синклитикия Юльевна Федосеева",
+      "post": "собеседник",
+      "birthday": "1974-03-11",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 20,
+    "fields": {
+      "full_name": "Варвара Никифоровна Тарасова",
+      "post": "стакан",
+      "birthday": "2000-10-29",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 21,
+    "fields": {
+      "full_name": "Лыткин Доброслав Валерьевич",
+      "post": "природа",
+      "birthday": "1980-04-05",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 22,
+    "fields": {
+      "full_name": "Некрасова Наталья Яковлевна",
+      "post": "развитый",
+      "birthday": "2000-11-23",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 23,
+    "fields": {
+      "full_name": "Шестакова Нина Геннадиевна",
+      "post": "народ",
+      "birthday": "1989-12-06",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 24,
+    "fields": {
+      "full_name": "Карпова Евпраксия Захаровна",
+      "post": "мимо",
+      "birthday": "2003-02-26",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 25,
+    "fields": {
+      "full_name": "Глафира Григорьевна Меркушева",
+      "post": "инструкция",
+      "birthday": "1975-03-24",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 26,
+    "fields": {
+      "full_name": "Ипатий Валерианович Кириллов",
+      "post": "ход",
+      "birthday": "1987-11-28",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 27,
+    "fields": {
+      "full_name": "Филарет Яковлевич Фомичев",
+      "post": "ручей",
+      "birthday": "1994-09-22",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 28,
+    "fields": {
+      "full_name": "Пахомов Агап Фокич",
+      "post": "избегать",
+      "birthday": "1975-12-03",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 29,
+    "fields": {
+      "full_name": "Изяслав Харлампьевич Казаков",
+      "post": "постоянный",
+      "birthday": "1982-10-23",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 30,
+    "fields": {
+      "full_name": "Юлия Владимировна Терентьева",
+      "post": "чувство",
+      "birthday": "1986-02-11",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 31,
+    "fields": {
+      "full_name": "Кириллов Евдоким Игнатьевич",
+      "post": "светило",
+      "birthday": "1981-03-18",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 32,
+    "fields": {
+      "full_name": "Муравьева Татьяна Николаевна",
+      "post": "мучительно",
+      "birthday": "1986-08-02",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 33,
+    "fields": {
+      "full_name": "Алина Викторовна Третьякова",
+      "post": "соответствие",
+      "birthday": "1981-11-12",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 34,
+    "fields": {
+      "full_name": "Тамара Юльевна Симонова",
+      "post": "войти",
+      "birthday": "2002-06-24",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 35,
+    "fields": {
+      "full_name": "Алла Николаевна Пономарева",
+      "post": "тесно",
+      "birthday": "2006-04-17",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 36,
+    "fields": {
+      "full_name": "Василиса Андреевна Власова",
+      "post": "дорогой",
+      "birthday": "1995-09-14",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 37,
+    "fields": {
+      "full_name": "Симонов Авдей Бориславович",
+      "post": "танцевать",
+      "birthday": "1977-03-27",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 38,
+    "fields": {
+      "full_name": "Добромысл Бориславович Мухин",
+      "post": "костер",
+      "birthday": "2003-10-06",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 39,
+    "fields": {
+      "full_name": "Валерия Ждановна Кузьмина",
+      "post": "карандаш",
+      "birthday": "1990-07-01",
+      "photo": ""
+    }
+  },
+  {
+    "model": "api.employee",
+    "pk": 40,
+    "fields": {
+      "full_name": "Степанов Клавдий Аверьянович",
+      "post": "опасность",
+      "birthday": "1974-08-27",
+      "photo": ""
+    }
+  }
+]

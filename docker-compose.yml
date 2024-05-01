@@ -1,0 +1,59 @@
+version: "3.9"
+
+services:
+  back:
+    container_name: organizer-back
+    build:
+      context: ./back
+    restart: always
+    expose:
+      - 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./media:/app/media
+      - ./static:/app/static
+    env_file:
+      - .env
+    depends_on:
+      db:
+        condition: service_healthy
+  db:
+    container_name: organizer-db
+    image: postgres:14-alpine
+    expose:
+      - 5432
+    env_file:
+      - .env
+    restart: always
+    healthcheck:
+      test:
+        - CMD
+        - sh
+        - -c
+        - PGPASSWORD=${POSTGRES_PASSWORD}
+          psql
+            -d${POSTGRES_DB}
+            -U${POSTGRES_USER}
+            -c 'select 1;'
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - organizer_db:/var/lib/postgresql/data
+  front:
+    container_name: organizer-front
+    build:
+      context: ./front
+    expose:
+      - 80
+    ports:
+      - "80:80"
+    volumes:
+      - ./media:/media
+    restart: always
+    depends_on:
+      back:
+        condition: service_started
+volumes:
+  organizer_db:

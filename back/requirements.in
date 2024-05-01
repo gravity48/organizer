@@ -1,0 +1,15 @@
+# prod
+django==3.2
+Pillow
+djangorestframework
+drf-spectacular
+django-filter
+psycopg2-binary
+whitenoise
+gunicorn
+
+# dev
+python-dotenv
+pytest-django
+Faker
+flake8
